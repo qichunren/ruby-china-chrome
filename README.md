@@ -5,7 +5,7 @@
 
 ## 安装 (Install)
 
-[下载](), 直接点击文件来安装此插件.
+[下载](https://github.com/downloads/qichunren/ruby-china-chrome/ruby-china-chrome.crx), 直接点击文件来安装此插件.
 
 ## 本地开发部署 (Development and deploy)
 
