@@ -4,8 +4,26 @@ font-size: 13px;
 line-height: 18px;
 color:
 #333;
+margin:0;
+padding:0;
 }
-
+header{
+    padding: 2px;
+    font-weight: bold;
+}
+#topics {
+    padding: 10px;
+}
+#notify {
+    background: #C43C35;
+    margin-right: 10px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    padding: 2px 6px;
+    cursor: pointer;
+    color: #FFF;
+}
 .topics .topic_line {
 border-bottom: 1px solid
 #DDD;

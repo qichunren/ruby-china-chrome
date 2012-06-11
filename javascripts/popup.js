@@ -15,4 +15,8 @@ $(document).ready(function(){
           }
         });
 
+    $("#notify").click(function(){
+        chrome.tabs.create({'url' : 'http://ruby-china.org/notifications'});
+    });
+
 });
