@@ -19,4 +19,7 @@ function fetchNotify(){
     fetching = false;
 }
 fetchNotify();
-setInterval(fetchNotify, 1000 * 60 * 15); // TODO every 15 minutes update, should be configed.
+if(localStorage["update_duration"]==undefined){
+    localStorage["update_duration"] = 5;
+}
+setInterval(fetchNotify, 1000 * 60 * localStorage["update_duration"]);

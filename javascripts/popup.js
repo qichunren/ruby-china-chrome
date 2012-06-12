@@ -10,12 +10,12 @@ $(document).ready(function(){
           type: "GET",
           dataType: "json",
           success: function(data) {
-            console.log(data);
             fillContent(data);
           }
         });
 
     $("#notify").click(function(){
+        chrome.browserAction.setBadgeText({'text' : ""});
         chrome.tabs.create({'url' : 'http://ruby-china.org/notifications'});
     });
 

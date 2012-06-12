@@ -1,0 +1,22 @@
+body{
+    padding: 0 18%;
+    font-size: 11px;
+}
+a {
+    color: blue;
+}
+h1 {
+    font-size: 14px;
+    border: solid 1px #ABC;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(0.48, #F2F6FD), color-stop(0.51, #EAF0FA));
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #F4F9FF), color-stop(1, #E5ECF9));
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(0.48, #F2F6FD), color-stop(0.51, #EAF0FA));
+    -webkit-box-shadow: 0px 1px 2px #DDD;
+}
+footer {
+    margin-top: 20px;
+    font-size: 10px;
+}
