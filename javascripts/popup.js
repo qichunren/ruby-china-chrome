@@ -11,6 +11,7 @@ $(document).ready(function(){
           dataType: "json",
           success: function(data) {
             fillContent(data);
+            $("#loading").hide();
           }
         });
 
