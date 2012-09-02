@@ -13,38 +13,9 @@
 <div id="topics" class="topics">
 </div>
 
-
-<script id="topicItem" type="text/x-jquery-tmpl">
-<div class="topic topic_line">
-  <div class="pull-left avatar">
-    <a href="http://ruby-china.org/users/${user.login}" rel="userpopover" class="user_avatar" target="_blank"><img src="${user.avatar_url}" style="width:28px;height:28px;"></a>
-  </div>
-  <div class="right_info">
-    <div class="pull-right replies">
-        <a href="http://ruby-china.org/topics/${_id}#reply30" class="count state_false" rel="twipsy" target="_blank" >${replies_count}</a>
-    </div>
-    <div class="infos">
-      <div class="title">
-          <a href="http://ruby-china.org/topics/${_id}" title="${title}" target="_blank">${title}</a>
-      </div>
-      <div class="info leader">
-      <a href="http://ruby-china.org/topics/node${node_id}" target="_blank">${node_name}</a>  •
-      <a href="http://ruby-china.org/users/${user.login}" target="_blank">${user.login}</a>
-         •
-      <abbr class="timeago" title="${created_at}">${created_at}</abbr>
-      </div>
-      <div class="info time">
-          最后由 <a href="http://ruby-china.org/users/${last_reply_user_login}" target="_blank">${last_reply_user_login}</a> <abbr class="timeago" title="${replied_at}">${replied_at}</abbr> 回复
-
-      </div>
-    </div>
-  </div>
-</div>
-
-</script>
-
-
 <footer>&copy; 2012 </footer>
+<script type="text/javascript" src="javascripts/handlebars-1.0.0.beta.6.js"></script>
+<script type="text/javascript" src="javascripts/templates.js"></script>
 <script type="text/javascript" src="javascripts/jquery-1.7.1.min.js"></script>
 <script type="text/javascript" src="javascripts/jquery.tmpl.js"></script>
 <script type="text/javascript" src="javascripts/jquery.timeago.js"></script>

@@ -20,6 +20,6 @@ function fetchNotify(){
 }
 fetchNotify();
 if(localStorage["update_duration"]==undefined){
-    localStorage["update_duration"] = 5;
+    localStorage["update_duration"] = 2;
 }
 setInterval(fetchNotify, 1000 * 60 * localStorage["update_duration"]);
