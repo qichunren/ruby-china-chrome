@@ -1,7 +1,11 @@
 $(document).ready(function(){
 
     function fillContent(data){
-        $("#topicItem").tmpl(data).appendTo("#topics");
+        var topics = "";
+        for(index in data){
+          topics = topics.concat(one = Handlebars.templates.topic(data[index]));
+        }
+        $(topics).appendTo("#topics");
         jQuery("abbr.timeago").timeago();
     }
 
