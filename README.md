@@ -1,6 +1,7 @@
 [Ruby-China.org](http://ruby-china.org/) 的Chrome浏览器插件
 
-![plugin preview](https://github.com/Tony612/ruby-china-chrome/blob/master/plugin_preview.png)
+![plugin preview](https://github.com/Tony612/ruby-china-chrome/raw/master/plugin_preview.png)
+
 
 
 ## 安装 (Install)
