@@ -5,7 +5,7 @@ templates['topic'] = template(function (Handlebars,depth0,helpers,partials,data)
   var buffer = "", stack1, foundHelper, functionType="function", escapeExpression=this.escapeExpression;
 
 
-  buffer += "<div class=\"topic topic_line\">\n  <div class=\"pull-left avatar\">\n    <a href=\"http://ruby-china.org/users/";
+  buffer += "<div class=\"topic topic_line\">\n  <div class=\"pull-left avatar\">\n    <a href=\"http://ruby-china.org/";
   stack1 = depth0.user;
   stack1 = stack1 == null || stack1 === false ? stack1 : stack1.login;
   stack1 = typeof stack1 === functionType ? stack1() : stack1;
@@ -37,7 +37,7 @@ templates['topic'] = template(function (Handlebars,depth0,helpers,partials,data)
   foundHelper = helpers.node_name;
   if (foundHelper) { stack1 = foundHelper.call(depth0, {hash:{}}); }
   else { stack1 = depth0.node_name; stack1 = typeof stack1 === functionType ? stack1() : stack1; }
-  buffer += escapeExpression(stack1) + "</a>  •\n      <a href=\"http://ruby-china.org/users/";
+  buffer += escapeExpression(stack1) + "</a>  •\n      <a href=\"http://ruby-china.org/";
   stack1 = depth0.user;
   stack1 = stack1 == null || stack1 === false ? stack1 : stack1.login;
   stack1 = typeof stack1 === functionType ? stack1() : stack1;
@@ -53,7 +53,7 @@ templates['topic'] = template(function (Handlebars,depth0,helpers,partials,data)
   foundHelper = helpers.created_at;
   if (foundHelper) { stack1 = foundHelper.call(depth0, {hash:{}}); }
   else { stack1 = depth0.created_at; stack1 = typeof stack1 === functionType ? stack1() : stack1; }
-  buffer += escapeExpression(stack1) + "</abbr>\n      </div>\n      <div class=\"info time\">\n          最后由 <a href=\"http://ruby-china.org/users/";
+  buffer += escapeExpression(stack1) + "</abbr>\n      </div>\n      <div class=\"info time\">\n          最后由 <a href=\"http://ruby-china.org/";
   foundHelper = helpers.last_reply_user_login;
   if (foundHelper) { stack1 = foundHelper.call(depth0, {hash:{}}); }
   else { stack1 = depth0.last_reply_user_login; stack1 = typeof stack1 === functionType ? stack1() : stack1; }
