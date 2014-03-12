@@ -36,8 +36,12 @@ header {
 }
 
 .topics .topic .avatar {
-    width: 56px;
+    width: 28px;
     margin-left: 10px;
+}
+
+.topic:hover {
+    background-color: #F5F8FA;
 }
 
 .pull-left {
@@ -49,18 +53,17 @@ header {
 }
 
 .topics .topic .right_info {
-    padding-left: 66px;
+    padding-left: 46px;
 }
 
 .topics .topic .replies {
     width: 70px;
-    margin-right: 10px;
     text-align: right;
     vertical-align: middle;
 }
 
 .topics .topic .infos {
-    padding-right: 74px;
+    padding-right: 64px;
 }
 
 .topics .topic .title {
