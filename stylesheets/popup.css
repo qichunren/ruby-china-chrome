@@ -1,19 +1,21 @@
 body {
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 13px;
-line-height: 18px;
-color:
-#333;
-margin:0;
-padding:0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
-header{
+
+header {
     padding: 2px;
     font-weight: bold;
 }
+
 #topics {
     padding: 10px;
 }
+
 #notify {
     background: #C43C35;
     margin-right: 10px;
@@ -24,77 +26,72 @@ header{
     cursor: pointer;
     color: #FFF;
 }
+
 .topics .topic_line {
-border-bottom: 1px solid
-#DDD;
-padding: 10px 0;
-padding-bottom: 0;
-margin: 0 -10px;
-vertical-align: top;
+    border-bottom: 1px solid #DDD;
+    padding: 10px 0;
+    padding-bottom: 0;
+    margin: 0 -10px;
+    vertical-align: top;
 }
 
 .topics .topic .avatar {
-width: 56px;
-margin-left: 10px;
+    width: 56px;
+    margin-left: 10px;
 }
 
 .pull-left {
-float: left;
+    float: left;
 }
 
 .pull-right {
-float: right;
+    float: right;
 }
 
 .topics .topic .right_info {
-padding-left: 66px;
+    padding-left: 66px;
 }
 
 .topics .topic .replies {
-width: 70px;
-margin-right: 10px;
-text-align: right;
-vertical-align: middle;
+    width: 70px;
+    margin-right: 10px;
+    text-align: right;
+    vertical-align: middle;
 }
 
 .topics .topic .infos {
-padding-right: 74px;
+    padding-right: 74px;
 }
 
 .topics .topic .title {
-font-size: 14px;
+    font-size: 14px;
 }
 
 .topics .topic .title a:link, .topics .topic .title a:visited, .node_topics .title a:link, .node_topics .title a:visited {
-color:
-#2C64D7;
-text-decoration: none;
+    color: #2C64D7;
+    text-decoration: none;
 }
 
 .topics .topic .info {
-color:
-#999;
-margin-bottom: 2px;
+    color: #999;
+    margin-bottom: 2px;
 }
 
 .topics .topic a:link, .topics .topic a:visited {
-color:
-#999;
-text-decoration: underline;
+    color: #999;
+    text-decoration: underline;
 }
 
 .topics .topic .replies a.count, .topics .topic .replies a.count:visited {
-line-height: 12px;
-font-weight: bold;
-color:
-white;
-background-color:
-#1C7FDB;
-display: inline-block;
-padding: 2px 10px 2px 10px;
--moz-border-radius: 12px;
--webkit-border-radius: 12px;
-border-radius: 12px;
-margin: 18px 12px 0px 0px;
-text-decoration: none;
+    line-height: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: #1C7FDB;
+    display: inline-block;
+    padding: 2px 10px 2px 10px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    margin: 18px 12px 0px 0px;
+    text-decoration: none;
 }

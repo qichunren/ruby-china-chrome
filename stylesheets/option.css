@@ -1,10 +1,12 @@
-body{
+body {
     padding: 0 18%;
     font-size: 11px;
 }
+
 a {
     color: blue;
 }
+
 h1 {
     font-size: 14px;
     border: solid 1px #ABC;
@@ -16,6 +18,7 @@ h1 {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(0.48, #F2F6FD), color-stop(0.51, #EAF0FA));
     -webkit-box-shadow: 0px 1px 2px #DDD;
 }
+
 footer {
     margin-top: 20px;
     font-size: 10px;
